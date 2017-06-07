@@ -82,5 +82,4 @@ type = "archives"
 * https://discuss.gohugo.io/t/blog-archives-page/2577/17
 
 # Forked theme !
-#   h u g o - f a b r i c - f o r k   f o r   j o h n s - g a r a g e 1 3 . d e  
- 
+#   h u g o - f a b r i c - f o r k
