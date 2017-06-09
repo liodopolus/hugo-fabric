@@ -4,7 +4,6 @@ Hugo Fabric Theme, forked from https://github.com/wd/hexo-fabric. You can visit 
 ![hugo-fabric screenshot](https://raw.githubusercontent.com/wd/hugo-fabric/master/images/tn.png)
 
 # Features
-
 * Support archives (But archives page and tags page didn't support pagination :( )
 * Tags list
 * RSS link and social account links
@@ -12,7 +11,6 @@ Hugo Fabric Theme, forked from https://github.com/wd/hexo-fabric. You can visit 
 * Use Highlight.js for code highlight
 
 # Installation
-
 First clone this repository in the `themes/` directory:
 
 ```
@@ -21,15 +19,12 @@ $ git clone https://github.com/wd/hugo-fabric
 ```
 
 Second, specify `hugo-fabric` as your default theme in the config.toml file. Just add the line
-
 ```
 theme = "hugo-fabric"
 ```
-
 Please check the `exampleSite` directory for an example site.
 
 # Theme settings
-
 Put settings below into your config.toml.
 
 ```
@@ -57,27 +52,21 @@ Put settings below into your config.toml.
 ```
 
 # Favicon
-
 There is a default favicon with this theme, you may want to change it. Just put it at `themes/hugo-fabric/static/images/fav.ico`.
 
 # Code highlight
-
 If you want to change to your favourite highlight style, just download the css file and replace `themes/hugo-fabric/static/css/hljs.css`.
 
 # Archive support
-
 Create a new file `hugo new archives.md`, and edit this file, add the following line in front matter.
-
 ```
 type = "archives"
 ```
 
 # Todo
-
 * TOC support
 
 # Others
-
 * https://github.com/wd/hexo2hugo
 * https://discuss.gohugo.io/t/blog-archives-page/2577/17
 
