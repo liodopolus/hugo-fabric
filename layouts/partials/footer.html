@@ -1,5 +1,11 @@
 <div style="display:inline">
     Copyright &copy; {{ now | dateFormat "2006" }}
+
+<!-- JS -->
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+
+
     {{ if .Site.Params.author }}
     {{ .Site.Params.author }}
     {{ else }}
